@@ -7,4 +7,6 @@ size_t stringlength2(const char *str);
 
 void stringcopy(char *str1, const char *str2);
 
+int stringcompare(const char *str1, const char *str2);
+
 #endif

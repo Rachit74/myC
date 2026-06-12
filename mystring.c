@@ -34,3 +34,20 @@ void stringcopy(char *str1, const char *str2) {
     *str1 = '\0';
     
 }
+
+
+int stringcompare(const char *str1, const char *str2) {
+    while (*str1 == *str2)
+    {
+        if (*str1 == '\0') {
+            return 0;
+        }
+
+        str1++;
+        str2++;
+    }
+
+    return (*str1 > *str2) ? 1 : -1;
+    
+
+}
