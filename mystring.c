@@ -55,3 +55,15 @@ char *stringconcat(char *dest, char *source) {
     return start;
 
 }
+
+
+const char *stringfindchar(const char *string, char c) {
+    while (*string != '\0') {
+        if (*string == c) {
+            return string;
+        }
+        string++;
+    }
+
+    return NULL;
+}

@@ -3,11 +3,10 @@
 #include <string.h>
 
 int main() {
-    char str1[] = "Rachit ";
-    char str2[] = "Hooda";
+    char s[] = "Rachit";
+    
+    char *str1 = stringfindchar(s, 'x');
 
-    // strcat(str1, str2);
-    stringconcat(str1, str2);
     printf("%s\n", str1);
     return 0;
 }

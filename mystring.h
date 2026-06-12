@@ -10,4 +10,6 @@ int stringcompare(const char *str1, const char *str2);
 
 char *stringconcat(char *dest, char *source);
 
+const char *stringfindchar(const char *string, char c);
+
 #endif
